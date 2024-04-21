@@ -112,13 +112,13 @@ if (isset($_POST['csv'])) {
         ->setFormatCode('#,##0.000');
     $sheet->getStyle('F2:F' . ($count+1))
         ->getNumberFormat()
-        ->setFormatCode( '_-£* #,##0.00_-;-£* #,##0.00_-;_-£* "-"??_-;_-@_-');
+        ->setFormatCode( '_-€* #,##0.00_-;-€* #,##0.00_-;_-€* "-"??_-;_-@_-');
     $sheet->getStyle('G2:G' . ($count+1))
         ->getNumberFormat()
-        ->setFormatCode( '_-£* #,##0.00_-;-£* #,##0.00_-;_-£* "-"??_-;_-@_-');
+        ->setFormatCode( '_-€* #,##0.00_-;-€* #,##0.00_-;_-€* "-"??_-;_-@_-');
     $sheet->getStyle('H2:H' . ($count+1))
         ->getNumberFormat()
-        ->setFormatCode( '_-£* #,##0.00_-;-£* #,##0.00_-;_-£* "-"??_-;_-@_-');
+        ->setFormatCode( '_-€* #,##0.00_-;-€* #,##0.00_-;_-€* "-"??_-;_-@_-');
     $sheet->getStyle('J2:J' . ($count+1))
         ->getAlignment()
         ->setWrapText(true);
