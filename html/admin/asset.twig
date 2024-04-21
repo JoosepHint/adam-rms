@@ -796,8 +796,8 @@
                                     {% endfor %}
                                     <th>Notes</th>
                                     <th>Value</th>
-                                    <th>&pound;/day</th>
-                                    <th>&pound;/week</th>
+                                    <th>&euro;/day</th>
+                                    <th>&euro;/week</th>
                                     <th title="File attachments"><i class="fas fa-paperclip"></i></th>
                                     <th style="width:1%"><i class="fas fa-flag"></i></th>
                                     <th style="width:1%"><i class="fas fa-ban"></i></th>
@@ -1458,8 +1458,8 @@
                 {% endif %}
                 {% if "ASSETS:ASSET_TYPES:EDIT"|instancePermissions %}
                 $("#addNewType-value").change(function() {
-                    $("#addNewType-dayRate-guide").html("2% = &pound;" + ($(this).val()*0.02).toFixed(2));
-                    $("#addNewType-weekRate-guide").html("6% = &pound;" + ($(this).val()*0.06).toFixed(2));
+                    $("#addNewType-dayRate-guide").html("2% = &euro;" + ($(this).val()*0.02).toFixed(2));
+                    $("#addNewType-weekRate-guide").html("6% = &euro;" + ($(this).val()*0.06).toFixed(2));
                 });
                 $('#saveSettingsButton').on('click', function() {
                     var formData = $("#addNewForm").serializeArray();

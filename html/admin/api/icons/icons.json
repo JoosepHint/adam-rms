@@ -5213,7 +5213,7 @@
     "keywords": [
       "Twitter",
       "instagram",
-      "pound",
+      "euro",
       "social media",
       "tag"
     ]
@@ -7861,8 +7861,8 @@
     ]
   },
   {
-    "code": "pound-sign",
-    "label": "Pound Sign",
+    "code": "euro-sign",
+    "label": "Euro Sign",
     "keywords": [
       "currency",
       "gbp",
